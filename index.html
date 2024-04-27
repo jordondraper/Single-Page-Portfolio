@@ -24,39 +24,105 @@
 </head>
 <body>
     
-<div id="headerWrapper">
     <header>
-        <img src="favicon_io-arch/architecture.logo.png" alt="logo" width="75" height="75">
-        <h1 class="gradient-text">Big Architect Services</h1>
+       
     </header>
-</div>
+
 
 
 <div id="navWrapper">
     <nav>
        <ul>
-        <li class="active"><a href="#">Home</a></li>
-        <li><a href="#">About Us</a></li>
-        <li><a href="#">Contact</a></li>
+        <li class="active"><a href="#one"><img src="svg_assets/home.svg"><span>Home</span></a></li>
+        <li><a href="#two"><img src="svg_assets/uvu.svg"><span>UVU IS&T Redesign</span></a></li>
+        <li><a href="#three"><img src="svg_assets/nationalpark.svg"><span>National Parks App</span></a></li>
+        <li><a href="#four"><img src="svg_assets/shein.svg"><span>SHEIN Application Feature</span></a></li>
+        <li><a href="#five"><img src="svg_assets/samplecentral.svg"><span>Sample Central</span></a></li>
+        <li><a href="#six"><img src="svg_assets/saltcitysol.svg"><span>Salt City Sol</span></a></li>
+        <li><a href="#seven"><img src="svg_assets/contactme.svg"><span>Contact Me</span></a></li>
        </ul>
     </nav>
 </div>
 
+
 <div id="mainWrapper">
 <main>
-    <h1>Inventory</h1>
+    <section id="one">
+        <h1>Jordon Draper</h1>
+        <h2>UX & Product Designer</h2>
+        <p>Hello! My name is Jordon Draper. I am a UX and Product Designer. I am Fluent in Portuguese with 3 years of experience in Customer Experience & 2 years of experience in FinTech & Non-Profit Industry. Below are my listed Case Studies.</p>
+    </section>
+
+   
+
+    <section id="two">
+        
+        <img src="hero_images/uvuhero.webp" alt="uvu">
+        <a href="#">Click to Learn More about UVU's IST Redesign</a>
+    </section>
+    <section id="three">
+        
+        <img src="hero_images/nationalparkshero.webp" alt="nationalpark">
+        <a href="#">Click to Learn More about National Parks App</a>
+    </section>
+    <section id="four">
+        <img src="hero_images/sheinhero.webp" alt="shein">
+        <a href="#">Click to Learn More about SHEIN App</a>
+    </section>
+    <section id="five">
+        
+        <img src="hero_images/samplecentralherojpg.webp" alt="samplecentral">
+        <a href="#">Click to Learn More about Sample Central</a>
+    </section>
+    <section id="six">
+        <img src="hero_images/saltcitysol.webp" alt="saltcitysol">
+        <a href="#">Click to Learn More about Salt City Sol</a>
+    </section>
+    <section id="seven">
+        <h1>Contact Me</h1>
+        <form method="get" action="thanks.html" class="myForm" autocomplete="on">
+           
     
+            <label>First Name: <input type="text" name="fname" autocomplete="given-name" required title="First Name Here"></label>
+            
+            <label>Last Name: <input type="text" name="lname" autocomplete="family-name" required title="Last Name Here"></label>
+            
+            <label>Email: <input type="email" name="email" autocomplete="email" required title="Your Email Here"></label>
+    
+            <label>Phone Number: <input type="tel" name="phone" autocomplete="tel" required title="Your Phone Number Here"></label>
+    
+            
+    
+        <label><input type="radio" name="communication" value="phone">Phone</label>
+        <label><input type="radio" name="communication" value="email">Email</label>
+            <input type="submit" value="Let's Get in Touch!">
+        </form>
+    
+    </section>
 </main>
 </div>
 
 
 <div id="footerWrapper">
 <footer>
-    <p> &copy; <span id="year">x</span> &bull; Jordon Draper</p>
+    <div>
+        <div class="contact">
+            <p>Jordon Draper</p>
+            <p><a href=mailto:jordondraper17@gmail.com>jordondraper17@gmail.com</a></p>
+            <p><a href=tel:8016644810>801 664 4810</a></p>
+        </div>
+        <div class="social">
+            <a href="https://www.facebook.com/jordonandrew.draper.1"><ion-icon name="logo-facebook"></ion-icon></a>
+            <a href="https://www.instagram.com/jordon_draper_/"><ion-icon name="logo-instagram"></ion-icon></a>
+            <a href="https://www.linkedin.com/in/jordon-draper-300785216/"><ion-icon name="logo-linkedin"></ion-icon></a>
+            <a href="https://www.youtube.com/@jordondraper8665/videoshttps://www.youtube.com/@jordondraper8665/videos"><ion-icon name="logo-youtube"></ion-icon></a>
+        </div>
+    </div>
+    <p class="legal"> &copy; <span id="year">x</span> &bull; Jordon Draper</p>
 </footer>
-
-
 </div>
 <script src="js/scripts.js"></script>
+<script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
 </body>
 </html>

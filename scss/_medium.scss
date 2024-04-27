@@ -8,12 +8,20 @@ header {
   }
 
 nav {
-
-    ul {
-        display: flex;
-    } // end ul
-    ul li a {
-        border: none;
-    }
-
+  ul {
+    a {
+        img {display: none;}
+        span {display: block;}
+      }
+  }
 } // end nav
+
+
+
+
+
+footer div {
+  display: grid;
+  grid-template-columns: auto auto;
+  align-items: center;
+}
